@@ -1,0 +1,158 @@
+.user-wrapper {
+	min-height: 100vh;
+	animation: scale 0.3s forwards;
+}
+
+@keyframes scale {
+	from {
+		transform: scale(0.7);
+		opacity: 0.5;
+	}
+	to {
+		transform: scale(1.0);
+		opacity: 1;
+	}
+}
+
+.banner {
+	min-height: 40vh;
+	background-color: var(--bg-dark);
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner-inner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	align-items: center;
+	justify-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.profile-image {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.user-info {
+	text-align: left;
+}
+
+.user-name {
+	color: var(--primary);
+	margin-bottom: 5px;
+}
+
+.user-login {
+	color: var(--bg-light);
+	margin-bottom: 10px;
+}
+
+.user-joined {
+	font-size: 15px;
+	color: var(--faded);
+	margin-bottom: 5px;
+}
+
+.user-contact {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+
+.user-contact p{
+	font-size: 12px;
+	margin-right: 20px;
+	color: var(--faded);
+}
+
+.contact-icon {
+	margin-right: 5px;
+}
+
+.user-bio {
+	margin-bottom: 10px;
+	color: var(--bg-light);
+}
+
+.github-link {
+	background-color: var(--primary);
+	color: var(--bg-dark);
+	padding: 8px 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 0.8rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.github-link:hover {
+	opacity: 0.8;
+	transform: translateY(-3px);
+}
+
+.body {
+	background-color: var(--bg-light);
+	min-height: 60vh;
+	padding: 1rem;	
+}
+
+.body-inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.detail-tablets {
+	max-width: 600px;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.detail-tab {
+	margin: 5px;
+}
+
+.repos-title {
+	margin-bottom: 15px;
+	color: var(--bg-dark);
+}
+
+.repos-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+}
+
+@media(max-width: 500px) {
+
+	.banner {
+		padding: 2rem 1rem;
+	}
+
+	.banner-inner {
+		grid-template-columns: 1fr;
+	}
+
+	.profile-image {
+		width: 120px;
+		height: 120px;
+	}
+
+	.user-info {
+		text-align: center;
+	}
+
+	.repos-container {
+		grid-template-columns: 1fr;
+	}
+
+}
+

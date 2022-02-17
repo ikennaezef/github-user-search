@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+
+:root {
+  --bg-dark: #282c34;
+  --bg-light: #e4e4e4;
+  --bg-faded: #383c48;
+  --primary: #f9cc46;
+  --faded: #939aab;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+

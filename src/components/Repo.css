@@ -1,0 +1,81 @@
+.repo {
+	background-color: #f1f1f1;
+	padding: 1rem;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	color: var(--bg-dark);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.repo-top {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.repo-name {
+	font-family: 'Fira Code', monospace;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.repo-name h2 {
+	font-size: 1.2rem;
+}
+
+.github-repo-link {
+	display: inline-block;
+	font-size: 1rem;
+	color: var(--bg-dark);
+}
+
+.github-repo-link:hover {
+	color: var(--primary);
+}
+
+.repo-icon {
+	margin-right: 10px;
+}
+
+.desc {
+	font-size: 0.8rem;
+	font-weight: 300;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.repo-details {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.repo-details span {
+	margin-right: 15px;
+	font-size: 0.6rem;
+}
+
+.repo-language {
+	background-color: var(--primary);
+	color: var(--bg-dark);
+	border-radius: 5px;
+	padding: 5px 8px;
+}
+
+.repo-size {
+	font-weight: 300;
+}
+
+
+@media(max-width: 500px) {
+
+	.repo {
+		padding: 0.8rem;
+	}
+
+}
