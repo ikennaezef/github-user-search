@@ -6,7 +6,7 @@ This application helps you to search for existing GitHub accounts and then displ
 
 
 ![](./screenshot_1.png)
-![](./screenshot_2.png)
+![](./screenhot_2.png)
 
 ### Links
 
